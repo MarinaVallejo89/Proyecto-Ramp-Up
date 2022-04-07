@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Trabajo Marina Vallejo</title>
+</head>
+
+<body class="wrapper">
+    <header id="header-main">
+        <h1 id="header-title">INDUSTRIAL METAL</h1>
+        <nav id="nav">
+            <ul id="navbar">
+                <li class="navi"><a href="../index.html">Inicio</a></li>
+                <li class="navi"><a href="biografia.html">Biografía</a></li>
+                <li class="navi"><a href="contacto.html">Contacto</a></li>
+                <li class="navi sinborde"><a href="galeria.html">Galería</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="formulario">
+        <form class="claseformulario" action="" method="">
+            <fieldset>
+                <legend class="datos">Datos personales</legend>
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" name="nombre" autofocus type="text" placeholder="Marina" required></input>
+                <label for="apellidos">Apellidos:</label>
+                <input id="apellidos" name="apellidos" type="text" placeholder="Vallejo Plaza" required></input>
+                <label for="edad">Edad:</label>
+                <input id="edad" name="edad" type="number" placeholder="32" required></input>
+                <label for="fechancto">Fecha de nacimiento:</label>
+                <input id="fechancto" name="fechancto" type="date" required></input>
+
+                <p>Sexo:</p>
+                <div>
+                <input type="radio" name="sexo" id="hombre" value="hombre">
+                <label for="hombre">Hombre</label>
+                <input type="radio" name="sexo" id="mujer" value="mujer">
+                <label for="Mujer">Mujer</label>
+                </div>
+
+                <fieldset>
+                    <legend class="sobre">Sobre tí</legend>
+                    <label for="grupofav">Grupo favorito:</label>
+                    <input id="grupofav" name="grupofav" type="text" placeholder="Rammstein" list="grupo"></input>
+                    <datalist id="grupo">
+                        <option value="Deathstars"></option>
+                        <option value="KMFDM"></option>
+                        <option value="Marilyn Manson"></option>
+                        <option value="Ministry"></option>
+                        <option value="NIN"></option>
+                        <option value="Oomph"></option>
+                        <option value="Rammstein"></option>
+                        <option value="Rob Zombie"></option>
+                        <option value="Ruoska"></option>
+                        <option value="Turmion Katilot"></option>
+                    </datalist>
+
+                    <label for="color">Color favorito:</label>
+                    <input id="color" name="color" type="color" placeholder="Negro"></input>
+                    <label for="curiosidad">¿Conoces más grupos? Cuéntanoslo:</label>
+                    <textarea cols="60" rows="10"
+                        placeholder="Grupos que crees que deberíamos conocer, anécdotas, conciertos, curiosidades..."></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <legend class="datoscontacto">Datos de contacto</legend>
+                    <label for="telefono">Número de teléfono:</label>
+                    <input id="telefono" name="telefono" type="number" placeholder="655555555" required></input>
+                    <label for="correo">Dirección de correo electrónico:</label>
+                    <input id="correo" name="correo" type="email" placeholder="correofalso@hotmail.com"
+                        required></input>
+                    <label for="ciudad">Ciudad de nacimiento:</label>
+                    <!-- Cuando se pone select, no se pone input, ni placeholder porque no hay que escribir -->
+                    <select id="ciudad">
+                        <optgroup label="Andalucía">
+                            <option value="Almería">Almería</option>
+                            <option value="Cádiz">Cádiz</option>
+                            <option value="Córdoba">Córdoba</option>
+                            <option value="Granada">Granada</option>
+                            <option value="Huelva">Huelva</option>
+                            <option value="Jaén">Jaén</option>
+                            <option value="Málaga">Málaga</option>
+                            <option value="Sevilla">Sevilla</option>
+                        </optgroup>
+                        <optgroup label="Aragón">
+                            <option value="Huesca">Huesca</option>
+                            <option value="Teruel">Teruel</option>
+                            <option value="Zaragoza">Zaragoza</option>
+                        </optgroup>
+                        <optgroup label="Principado de Asturias">
+                            <option value="Asturias">Asturias</option>
+                        </optgroup>
+                        <optgroup label="Islas Baleares">
+                            <option value="Islas Baleares">Islas Baleares</option>
+                        </optgroup>
+                        <optgroup label="Canarias">
+                            <option value="Las Palmas">Las Palmas</option>
+                            <option value="Santa Cruz de Tenerife">Santa Cruz de Tenerife</option>
+                        </optgroup>
+                        <optgroup label="Cantabria">
+                            <option value="Cantabria">Cantabria</option>
+                        </optgroup>
+                        <optgroup label="Castilla y León">
+                            <option value="Ávila">Ávila</option>
+                            <option value="Burgos">Burgos</option>
+                            <option value="León">León</option>
+                            <option value="Palencia">Palencia</option>
+                            <option value="Salamanca">Salamanca</option>
+                            <option value="Segovia">Segovia</option>
+                            <option value="Soria">Soria</option>
+                            <option value="Valladolid">Valladolid</option>
+                            <option value="Zamora">Zamora</option>
+                        </optgroup>
+                        <optgroup label="Castilla La Mancha">
+                            <option value="Albacete">Albacete</option>
+                            <option value="Ciudad Real">Ciudad Real</option>
+                            <option value="Cuenca">Cuenca</option>
+                            <option value="Guadalajara">Guadalajara</option>
+                            <option value="Toledo">Toledo</option>
+                        </optgroup>
+                        <optgroup label="Cataluña">
+                            <option value="Barcelona">Barcelona</option>
+                            <option value="Girona">Girona</option>
+                            <option value="Lleida">Lleida</option>
+                            <option value="Tarragona">Tarragona</option>
+                        </optgroup>
+                        <optgroup label="Comunidad Valenciana">
+                            <option value="Alicante">Alicante</option>
+                            <option value="Castellón">Castellón</option>
+                            <option value="Valencia">Valencia</option>
+                        </optgroup>
+                        <optgroup label="Extremadura">
+                            <option value="Badajoz">Badajoz</option>
+                            <option value="Cáceres">Cáceres</option>
+                        </optgroup>
+                        <optgroup label="Galicia">
+                            <option value="A Coruña">A Coruña</option>
+                            <option value="Lugo">Lugo</option>
+                            <option value="Ourense">Ourense</option>
+                            <option value="Pontevedra">Pontevedra</option>
+                        </optgroup>
+                        <optgroup label="Comunidad de Madrid">
+                            <option value="Madrid">Madrid</option>
+                        </optgroup>
+                        <optgroup label="Comunidad Foral de Navarra">
+                            <option value="Navarra">Navarra</option>
+                        </optgroup>
+                        <optgroup label="País Vasco">
+                            <option value="Álava">Álava</option>
+                            <option value="Bizcaia">Bizcaia</option>
+                            <option value="Guipuzkoa">Guipuzkoa</option>
+                        </optgroup>
+                        <optgroup label="La Rioja">
+                            <option value="La Rioja">La Rioja</option>
+                        </optgroup>
+                        <optgroup label="Ciudades Autónomas">
+                            <option value="Ceuta">Ceuta</option>
+                            <option value="Melilla">Melilla</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+
+                <input type="submit" value="Enviar formulario"></input>
+                <input type="reset" value="Resetear formulario"></input>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer class="clasefooter">
+        <table>
+            <tr>
+                <td>Teléfono:</td>
+                <td>666 666 666</td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>correofalso@hotmail.com</td>
+            </tr>
+            <tr>
+                <td>Copyright:</td>
+                <td>© 2022, Industrial Metal. Todos los derechos reservados.</td>
+            </tr>
+        </table>
+    </footer>
+    </footer>
+</body>
+
+</html>

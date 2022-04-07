@@ -1,0 +1,297 @@
+* {
+    font-family: 'Arial', Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    background-image: url("../images/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#header-main {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: small;
+    color: gray;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#navbar {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+#navbar:last-child {
+    border: none;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navi {
+    margin: 5px;
+    border-right: 1px solid whitesmoke;
+    padding: 2px;
+    color: whitesmoke;
+}
+
+.sinborde {
+    border: none;
+}
+
+.navi a {
+    margin: 5px;
+    padding: 2px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    margin-top: 50px;
+}
+
+input, textarea {
+    background-color: whitesmoke;
+    color: black;
+}
+
+header {
+    background-color: black;
+}
+
+.cabecera {
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.datos, .sobre, .datoscontacto {
+    color:rgb(197, 67, 16);
+    font-size: larger;
+}
+
+.centrar, header > h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.solid, tr {
+    border-style: solid;
+}
+
+.orange {
+    background-color: rgb(197, 67, 16);
+    border-color: rgb(197, 67, 16);
+}
+
+.concirammstein {
+    size: 1px;
+}
+
+#color {
+    background-color: black;
+    border-color: black;
+    border-radius: 50%;
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.big {
+    display: flex;
+    flex-grow: 3;
+    min-height: 3em;
+}
+
+.small {
+    display: flex;
+    flex-grow: 1.35;
+}
+
+.h25 {
+    max-height: 25em;
+}
+
+.w25 {
+    margin: 0 auto;
+    width: 25em;
+}
+
+.w40 {
+    margin: 0 auto;
+    width: 40em;
+}
+
+.w60 {
+    margin: 0 auto;
+    width: 60em;
+}
+
+h3, h2, h1, legend > b, 
+fieldset > input:hover , div > input:hover,
+textarea:hover, a:hover {
+    color: rgb(197, 67, 16);
+}
+
+.section, .table {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 60%;
+    padding: 0.6em;
+    margin-left: 2em;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.biogra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#tabla {
+    display: flex;
+    flex-direction: column;
+}
+
+#mansonvideo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.conci {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px 20px;
+}
+
+.caracter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 20px;
+}
+
+.clasefooter {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.clasesectionbio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.primerarticulobio {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 95%;
+    padding: 20px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.clasearticulobiotabla {
+    gap: 20px;
+    width: 40%;
+}
+
+.clasetablabio {
+    gap: 20px;
+    width: 95%;
+    background-color: black;
+    color: whitesmoke;
+    padding: 30px;
+}
+
+.claseformatotr {
+    text-align: center;
+    color: rgb(197, 67, 16);
+    margin: 10px;
+    padding: 20px;
+}
+
+.claseformulario {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: whitesmoke;
+    box-shadow:0px 0px 10px 5px whitesmoke;
+}
+
+.claseformulario fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.clasedesectiongaleria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+}
+
+.clasearticlegaleria {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+    padding: 10px;
+    background-color:black;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+}
